@@ -7,9 +7,11 @@ import javax.swing.*;
 
 public class Kapitel2{
 	public static void main(String[] args){
-		String Firstname = JOptionPane.showInputDialog(null,"Ditt f" + '\u00F6' + "rnamn?" );
-		String Lastname = JOptionPane.showInputDialog(null, "Ditt efternamn?");
-		String Fullname = Firstname + " " + Lastname;
-		JOptionPane.showMessageDialog(null, "Du heter " + Fullname);
-	}
+		char stort = '\u00D8';
+		char litet = '\u00F8';
+		char pi = '\u03C0';
+		JOptionPane.showMessageDialog(null, stort);
+		JOptionPane.showMessageDialog(null, litet);
+		JOptionPane.showMessageDialog(null, pi);
+}
 }
